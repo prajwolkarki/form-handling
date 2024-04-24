@@ -1,0 +1,154 @@
+.input-container{
+
+  background-color: black;
+  color: white;
+  padding: 50px;
+  width: fit-content;
+  margin:100px auto;
+}
+.input-container input{
+  padding: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin: 5px;
+}
+button{
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: lightcoral;
+  color: white;
+}
+.navbar{
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  
+}
+.nav-links{
+  display: flex;
+  column-gap: 10px;
+  list-style-type: none;
+}
+.links{
+ 
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+/* Styles for the container */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for headings */
+.contact-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styles for form */
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for form elements */
+.contact-container label {
+  margin-bottom: 5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-container textarea {
+  resize: vertical;
+}
+
+.contact-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #0056b3;
+}
+/* about.css */
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about-content {
+  margin-top: 20px;
+}
+
+.about-content p {
+  margin-bottom: 15px;
+}
+/* home.css */
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* services.css */
+
+.services-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.services-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-container li {
+  margin-bottom: 10px;
+}
